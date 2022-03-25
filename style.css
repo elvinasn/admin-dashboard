@@ -1,0 +1,14 @@
+nav{
+  background-color: lightblue;
+}
+.header__profile > img {
+  width: 50px;
+  border-radius: 25px;
+}
+.header__welcome > img {
+  width: 100px;
+  border-radius: 50px;
+}
+.nav__section > img {
+  width: 30px;
+}
