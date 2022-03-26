@@ -68,6 +68,9 @@ nav {
   background-color: lightblue;
   grid-row: 1 / span 2;
 }
+.nav__section {
+  display: flex;
+}
 .nav__section > img {
   width: 30px;
 }
