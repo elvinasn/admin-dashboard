@@ -5,7 +5,7 @@
 body {
   background-color: hsl(0, 0%, 95%);
   display: grid;
-  grid-template: 1fr 5.5fr / 1fr 5fr;
+  grid-template: min-content 1fr / 1fr 4.5fr;
 }
 header {
   background-color: white;
@@ -67,10 +67,31 @@ header {
 nav {
   background-color: lightblue;
   grid-row: 1 / span 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.nav__container:first-child {
+  display: flex;
+}
+.nav__container > img {
+  height: 50px;
+  margin-right: 15px;
+}
+.nav__container > h1 {
+  font-size: 30px;
+  margin-top: 7px;
 }
 .nav__section {
   display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
 }
 .nav__section > img {
   width: 30px;
+  margin-left: 10px;
+}
+.nav__section > p {
+  margin-top: 7px;
 }
