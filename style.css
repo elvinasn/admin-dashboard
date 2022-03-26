@@ -1,7 +1,8 @@
-nav{
+nav {
   background-color: lightblue;
 }
-.header__profile > img {
+.header__profile > img,
+.trending__profile > img {
   width: 50px;
   border-radius: 25px;
 }
@@ -11,4 +12,8 @@ nav{
 }
 .nav__section > img {
   width: 30px;
+}
+.projects__card > button {
+  background-color: inherit;
+  border: none;
 }
